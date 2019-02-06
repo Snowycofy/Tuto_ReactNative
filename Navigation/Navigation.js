@@ -3,7 +3,10 @@ import Search from '../Components/Search'
 
 const SearchStackNavigator = createStackNavigator({
   Home: { 
-    screen: Search
+    screen: Search,
+    navigationOptions: {
+      title: 'Rechercher'
+    }
   }
 })
 
