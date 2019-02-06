@@ -24,13 +24,16 @@ class Search extends React.Component {
         this.setState({
             films: []
         }, () => {
-            console.log("Page : " + this.page + " / TotalPages : " + this.totalPages + " / Nombre de films : " + this.state.films.length)
+            //console.log("Page : " + this.page + " / TotalPages : " + this.totalPages + " / Nombre de films : " + this.state.films.length)
             this._loadFilms()
         })
         
       }
 
-
+    _displayDetailForFilm = (idFilm) => {
+        console.log("Display film with id " + idFilm)
+        this.props.navigation.navigate("DetailDeFilm", {idFilm: idFilm})
+    }
 
     _loadFilms() {
         if (this.searchedText.length > 0) {
@@ -67,7 +70,7 @@ class Search extends React.Component {
     }
 
     render() {
-        console.log("RENDER")
+        //console.log(this.props)
         return(
             <View style={ styles.main_container }>
                 <TextInput style={[styles.textinput, styles.textinput2]} 
@@ -76,18 +79,19 @@ class Search extends React.Component {
                 onSubmitEditing={() => this._searchFilms()}
                 />
                 <Button title='Rechercher' onPress={() => this._searchFilms()}/>
-                 <FlatList
-                 //data={this._films}
-                 data={this.state.films}
-                 keyExtractor={(item) => item.id.toString()}
-                 //renderItem={({item}) => <Text>{item.title}</Text>}
-                 renderItem={({item}) => <FilmItem film={item}/>}
-                 onEndReachedThreshold={0.5}
-                onEndReached={() => {
-                if (this.page < this.totalPages) { 
-                this._loadFilms()
-                }
-            }}
+                <FlatList
+                    //data={this._films}
+                    data={this.state.films}
+                    keyExtractor={(item) => item.id.toString()}
+                    //renderItem={({item}) => <Text>{item.title}</Text>}
+                    renderItem={({item}) => <FilmItem film={item} 
+                    displayDetailForFilm={this._displayDetailForFilm} />}
+                    onEndReachedThreshold={0.5}
+                    onEndReached={() => {
+                    if (this.page < this.totalPages) { 
+                        this._loadFilms()
+                    }
+                }}
             />
                {this._displayLoading()}
             </View>
@@ -110,7 +114,7 @@ class Search extends React.Component {
 const styles = StyleSheet.create({
     main_container: {
         flex: 1,
-        marginTop: 40,
+        marginTop: 5,
         //justifyContent: 'space-around',
         //alignItems: 'center'
     },
