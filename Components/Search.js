@@ -1,5 +1,5 @@
 import React from 'react'
-import { StyleSheet, View, TextInput, Button, FlatList, Text, ActivityIndicator } from 'react-native'
+import { StyleSheet, View, TextInput, Button, FlatList, Text, ActivityIndicator, SafeAreaView } from 'react-native'
 //import films from '../Helpers/filmsData'
 import FilmItem from './FilmItem'
 import { getFilmsFromApiWithSearchedText } from '../API/TMDBApi'
@@ -77,6 +77,7 @@ class Search extends React.Component {
     render() {
         //console.log(this.props)
         return(
+            <SafeAreaView styles={styles.main_container}>
             <View style={ styles.main_container }>
                 <TextInput style={[styles.textinput, styles.textinput2]} 
                 placeholder='Titre du film'
@@ -113,6 +114,7 @@ class Search extends React.Component {
                     />
                {this._displayLoading()}
             </View>
+            </SafeAreaView>
         )
         {
             /*
