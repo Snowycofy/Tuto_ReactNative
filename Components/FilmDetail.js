@@ -12,7 +12,7 @@ class FilmDetail extends React.Component {
         super(props)
         this.state = {
             film: undefined,
-            isLoading : true
+            isLoading : false
         }
     }
 
@@ -35,12 +35,22 @@ class FilmDetail extends React.Component {
 
     componentDidMount() {
        //console.log("Composant FilmDetail monté")
-       getFilmDetailFromApi(this.props.navigation.state.params.idFilm).then(data => {
+       const favoriteFilmIndex = this.props.favoritesFilm.findIndex(item => item.id === this.props.navigation.state.params.idFilm)
+       if (favoriteFilmIndex !== -1) { 
            this.setState({
-               film: data,
-               isLoading: false
+               film: this.props.favoritesFilm[favoriteFilmIndex]
            })
-       })
+      }
+      else
+      {
+      this.setState({ isLoading: true })
+      getFilmDetailFromApi(this.props.navigation.state.params.idFilm).then(data => {
+        this.setState({
+          film: data,
+          isLoading: false
+        })
+      })
+      }
     }
 
     _displayFavoriteImage() {
@@ -50,7 +60,7 @@ class FilmDetail extends React.Component {
       }
       return(
         <Image
-        style= {styles.favorire_image}
+        style= {styles.favorite_image}
         source={sourceImage}
         />
       )
@@ -131,7 +141,7 @@ class FilmDetail extends React.Component {
         height: 169,
         margin: 5
       },
-      favorire_image:{
+      favorite_image:{
         width:40,
         height: 40
       },

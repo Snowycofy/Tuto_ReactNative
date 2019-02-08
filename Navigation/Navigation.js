@@ -17,6 +17,18 @@ const SearchStackNavigator = createStackNavigator({
   }
 })
 
+const FavoritesStackNavigator = createStackNavigator({
+  Home2: { 
+    screen: Favorites,
+    navigationOptions: {
+      title: 'Favoris'
+    }
+  },
+  DetailDeFilm: { 
+    screen: FilmDetail
+  }
+})
+
 const MoviesTabNavigator = createBottomTabNavigator({
   Home: { 
     screen: SearchStackNavigator,
@@ -31,7 +43,7 @@ const MoviesTabNavigator = createBottomTabNavigator({
     }
   },
   Favorites: {
-    screen: Favorites,
+    screen: FavoritesStackNavigator,
     navigationOptions: {
       tabBarIcon: () => {
         return <Image
@@ -60,4 +72,5 @@ const styles = StyleSheet.create({
     height:30
   }
 })
+
 export default createAppContainer(MoviesTabNavigator)
