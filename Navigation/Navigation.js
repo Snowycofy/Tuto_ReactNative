@@ -4,6 +4,7 @@ import { createStackNavigator, createAppContainer, createBottomTabNavigator } fr
 import Search from '../Components/Search'
 import FilmDetail from '../Components/FilmDetail'
 import Favorites from '../Components/Favorites'
+import Test from '../Components/Test'
 
 const SearchStackNavigator = createStackNavigator({
   Home: { 
@@ -30,6 +31,9 @@ const FavoritesStackNavigator = createStackNavigator({
 })
 
 const MoviesTabNavigator = createBottomTabNavigator({
+  Test: {
+    screen: Test
+  },
   Home: { 
     screen: SearchStackNavigator,
     navigationOptions: {
