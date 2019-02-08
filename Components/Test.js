@@ -1,13 +1,15 @@
 import React from 'react'
 import { StyleSheet, View, Platform, Text, Animated, Easing } from 'react-native'
 import HelloWorld from './HelloWorld';
+import { relativeTimeThreshold } from 'moment';
 
 class Test extends React.Component {
 
     constructor(props){
         super(props)
         this.state = {
-            topPosition : new Animated.Value(0)
+            topPosition : new Animated.Value(0),
+            leftPosition : new Animated.Value(0)
         }
     }
 
@@ -39,7 +41,7 @@ class Test extends React.Component {
             }
         ).start()
         */}
-        Animated.sequence([
+        {/*Animated.sequence([
             Animated.spring(
                 this.state.topPosition,
                 {
@@ -56,12 +58,31 @@ class Test extends React.Component {
                     easing: Easing.elastic(2),
                 }
             )]).start()
+            */}
+        Animated.parallel([
+            Animated.spring(
+                this.state.topPosition,
+                {
+                    toValue: 100,
+                    tension: 8,
+                    friction: 3
+                }
+            ),
+            Animated.timing(
+                this.state.leftPosition,
+                {
+                    toValue: 100,
+                    duration: 1000,
+                    easing: Easing.elastic(2),
+                }
+            )
+        ]).start()
     }
 
     render() {
     return (
       <View style={styles.main_container}>
-        <Animated.View style={[styles.animation_view, {top: this.state.topPosition}]}>
+        <Animated.View style={[styles.animation_view, {top: this.state.topPosition, left: this.state.leftPosition}]}>
             {/*
                 Platform.OS === 'ios' ? <Text>iOS</Text> : <Text>Android</Text>
             
