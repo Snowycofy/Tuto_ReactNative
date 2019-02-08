@@ -1,5 +1,5 @@
 import React from 'react'
-import { StyleSheet, View } from 'react-native'
+import { StyleSheet, View, Platform, Text } from 'react-native'
 
 class Test extends React.Component {
 
@@ -7,6 +7,9 @@ class Test extends React.Component {
     return (
       <View style={styles.main_container}>
         <View style={styles.subview_container}>
+            {
+                Platform.OS === 'ios' ? <Text>iOS</Text> : <Text>Android</Text>
+            }
         </View>
       </View>
     )
@@ -20,8 +23,29 @@ const styles = StyleSheet.create({
     alignItems: 'center'
   },
   subview_container: {
-    
-  }
-})
+    ...Platform.select({
+        ios: {
+            backgroundColor: 'red',
+            height: 100,
+            width: 50
+        },
+        android: {
+            backgroundColor: 'red',
+            height: 50,
+            width: 100
+        }
+    })
+    }})
+
+{/* 
+        ou 
+        subview_container: {
+            backgroundColor: Platform.OS === 'ios' ? 'red' : 'blue,
+            height: Platform.OS === 'ios' ?  100 : 50,
+            width: Platform.OS === 'ios' ?  50 : 100
+        }
+
+*/}
+
 
 export default Test
