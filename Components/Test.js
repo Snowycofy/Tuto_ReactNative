@@ -1,6 +1,6 @@
 import React from 'react'
 import { StyleSheet, View, Platform, Text } from 'react-native'
-import HelloWorld from './HelloWorld.android';
+import HelloWorld from './HelloWorld';
 
 class Test extends React.Component {
 
