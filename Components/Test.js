@@ -1,5 +1,6 @@
 import React from 'react'
 import { StyleSheet, View, Platform, Text } from 'react-native'
+import HelloWorld from './HelloWorld.android';
 
 class Test extends React.Component {
 
@@ -7,9 +8,10 @@ class Test extends React.Component {
     return (
       <View style={styles.main_container}>
         <View style={styles.subview_container}>
-            {
+            {/*
                 Platform.OS === 'ios' ? <Text>iOS</Text> : <Text>Android</Text>
-            }
+            */}
+            <HelloWorld/>
         </View>
       </View>
     )
