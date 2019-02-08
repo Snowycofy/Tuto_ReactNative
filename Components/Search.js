@@ -77,7 +77,7 @@ class Search extends React.Component {
     render() {
         //console.log(this.props)
         return(
-            <SafeAreaView styles={styles.main_container}>
+            <SafeAreaView style={styles.main_container}>
             <View style={ styles.main_container }>
                 <TextInput style={[styles.textinput, styles.textinput2]} 
                 placeholder='Titre du film'
