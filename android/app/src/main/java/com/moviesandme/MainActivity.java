@@ -1,4 +1,4 @@
-package com.moviesandme;
+package com.snowiiroot.moviesandme;
 
 import com.facebook.react.ReactActivity;
 

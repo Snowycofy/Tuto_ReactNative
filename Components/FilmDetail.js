@@ -35,7 +35,7 @@ class FilmDetail extends React.Component {
     this._toggleFavorite = this._toggleFavorite.bind(this)
     this._shareFilm = this._shareFilm.bind(this)
   }
-
+//
   _updateNavigationParams() {
     this.props.navigation.setParams({
       shareFilm: this._shareFilm,
@@ -45,12 +45,15 @@ class FilmDetail extends React.Component {
 
   componentDidMount() {
     const favoriteFilmIndex = this.props.favoritesFilm.findIndex(item => item.id === this.props.navigation.state.params.idFilm)
-    if (favoriteFilmIndex !== -1) {
+    
+    let ComingFromFavList = favoriteFilmIndex !== -1;
+    if (ComingFromFavList) {
       this.setState({
         film: this.props.favoritesFilm[favoriteFilmIndex]
       }, () => { this._updateNavigationParams() })
       return
     }
+    //we are coming from List
     this.setState({ isLoading: true })
     getFilmDetailFromApi(this.props.navigation.state.params.idFilm).then(data => {
       this.setState({
