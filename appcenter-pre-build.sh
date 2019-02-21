@@ -1,5 +1,8 @@
 printf "\nInstalling Pods custom Script...\n"
-cd ios
+#cd ios
+pod --version
 # pod install --repo-update
-cd ..
+
+
+#cd ..
 printf "\nFinished installing Pods custom Script.\n"
