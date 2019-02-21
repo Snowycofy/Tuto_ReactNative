@@ -1,5 +1,5 @@
-printf "\nInstalling Pods...\n"
+printf "\nInstalling Pods custom Script...\n"
 cd ios
-pod install --repo-update
+# pod install --repo-update
 cd ..
-printf "\nFinished installing Pods.\n"
+printf "\nFinished installing Pods custom Script.\n"
