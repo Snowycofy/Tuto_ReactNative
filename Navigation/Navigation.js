@@ -11,7 +11,7 @@ const SearchStackNavigator = createStackNavigator({
   Home: { 
     screen: Search,
     navigationOptions: {
-      title: 'Rechercher'
+      title: 'Recherche'
     }
   },
   DetailDeFilm: { 

@@ -6,8 +6,9 @@ import { Provider } from 'react-redux'
 import Store from './Store/configureStore'
 import { persistStore } from 'redux-persist'
 import { PersistGate } from 'redux-persist/integration/react';
+import codePush from "react-native-code-push";
 
-export default class App extends React.Component {
+class App extends React.Component {
   render() {
     let persistor = persistStore(Store)
     return (
@@ -20,3 +21,9 @@ export default class App extends React.Component {
     )
   }
 }
+
+
+MyApp = codePush(App)
+
+export default MyApp
+
