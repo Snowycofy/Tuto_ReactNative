@@ -30,6 +30,21 @@
     "react-test-renderer": "16.6.3"
   },
   "jest": {
-    "preset": "react-native"
+    "preset": "react-native",
+    
+    "_infoGG": "for react-navigation  https://reactnavigation.org/docs/en/redux-integration.html#mocking-tests",
+    "transformIgnorePatterns": [
+      "node_modules/(?!(jest-)?react-native|@react-navigation|react-navigation-redux-helpers|react-navigation-stack|react-navigation-tabs)"
+    ],
+    "testPathIgnorePatterns": [
+      "/node_modules/"
+    ],
+    "_infoGG2": "for appCenter SDK  https://docs.microsoft.com/en-us/appcenter/sdk/getting-started/react-native",
+    "setupFiles": [
+      "<rootDir>/node_modules/appcenter/test/AppCenterMock.js",
+      "<rootDir>/node_modules/appcenter-analytics/test/AppCenterAnalyticsMock.js",
+      "<rootDir>/node_modules/appcenter-crashes/test/AppCenterCrashesMock.js",
+      "<rootDir>/__mocks__/jestSetup.js"
+    ]
   }
 }
