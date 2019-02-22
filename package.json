@@ -31,6 +31,7 @@
   },
   "jest": {
     "preset": "react-native",
+    
     "_infoGG": "for react-navigation  https://reactnavigation.org/docs/en/redux-integration.html#mocking-tests",
     "transformIgnorePatterns": [
       "node_modules/(?!(jest-)?react-native|@react-navigation|react-navigation-redux-helpers|react-navigation-stack|react-navigation-tabs)"

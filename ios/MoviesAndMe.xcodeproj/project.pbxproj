@@ -374,7 +374,6 @@
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* MoviesAndMeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoviesAndMeTests.m; sourceTree = "<group>"; };
 		012FB1D6C9AF0BAF3D98D7AD /* libPods-MoviesAndMeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MoviesAndMeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0F6240E82AC350E87519E5C5 /* Pods-MoviesAndMe-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoviesAndMe-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-MoviesAndMe-tvOS/Pods-MoviesAndMe-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		137D32AF5B4BB369CE47BB09 /* libPods-MoviesAndMe-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MoviesAndMe-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
 		139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
@@ -386,16 +385,13 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MoviesAndMe/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = MoviesAndMe/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
-		1B63F45A3ADB368406F40ECD /* Pods-MoviesAndMe-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoviesAndMe-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MoviesAndMe-tvOS/Pods-MoviesAndMe-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* MoviesAndMe-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MoviesAndMe-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* MoviesAndMe-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MoviesAndMe-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		30BF6ABF0BAB46FDA92894A5 /* AppCenterReactNativeAnalytics.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = AppCenterReactNativeAnalytics.xcodeproj; path = "../node_modules/appcenter-analytics/ios/AppCenterReactNativeAnalytics.xcodeproj"; sourceTree = "<group>"; };
 		335878EE898B4327BF324AF8 /* RNGestureHandler.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNGestureHandler.xcodeproj; path = "../node_modules/react-native-gesture-handler/ios/RNGestureHandler.xcodeproj"; sourceTree = "<group>"; };
 		37550BE2A74AC330D0543FF9 /* libPods-MoviesAndMe-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MoviesAndMe-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		41601F05609B57B00F627312 /* Pods-MoviesAndMe-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoviesAndMe-tvOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MoviesAndMe-tvOSTests/Pods-MoviesAndMe-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		423598787EC140BCB74B4B5A /* RNImagePicker.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNImagePicker.xcodeproj; path = "../node_modules/react-native-image-picker/ios/RNImagePicker.xcodeproj"; sourceTree = "<group>"; };
-		4848A747D17D6AB236C5F3E4 /* Pods-MoviesAndMe-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoviesAndMe-tvOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MoviesAndMe-tvOSTests/Pods-MoviesAndMe-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
 		63167D742A0C88E7DE61599B /* Pods-MoviesAndMe-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoviesAndMe-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-MoviesAndMe-tvOSTests/Pods-MoviesAndMe-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		740CA31CC9A0349BF7253AF1 /* libPods-MoviesAndMe.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MoviesAndMe.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -405,10 +401,8 @@
 		9B486A7DE2D64CA086946A8B /* libAppCenterReactNativeCrashes.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libAppCenterReactNativeCrashes.a; sourceTree = "<group>"; };
 		A39472C151228447A4E1F20C /* Pods-MoviesAndMe-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoviesAndMe-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-MoviesAndMe-tvOSTests/Pods-MoviesAndMe-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		A58DE684F2204F75A53984D7 /* libRNImagePicker.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNImagePicker.a; sourceTree = "<group>"; };
-		A75F95CA1F10EED9921C79F0 /* Pods-MoviesAndMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoviesAndMe.release.xcconfig"; path = "Pods/Target Support Files/Pods-MoviesAndMe/Pods-MoviesAndMe.release.xcconfig"; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
 		AE77FB197B88490FBD3D9294 /* libRNGestureHandler.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNGestureHandler.a; sourceTree = "<group>"; };
-		BBE8912194A13BC4B26F8009 /* Pods-MoviesAndMeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoviesAndMeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MoviesAndMeTests/Pods-MoviesAndMeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C5EB2A67A536D19D47CC25DC /* Pods-MoviesAndMeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoviesAndMeTests.debug.xcconfig"; path = "Target Support Files/Pods-MoviesAndMeTests/Pods-MoviesAndMeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CFE816209E8D9AF210240DDE /* Pods-MoviesAndMe-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoviesAndMe-tvOS.release.xcconfig"; path = "Target Support Files/Pods-MoviesAndMe-tvOS/Pods-MoviesAndMe-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		E0AFA864C613F8ADD1A38AC5 /* Pods-MoviesAndMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoviesAndMe.release.xcconfig"; path = "Target Support Files/Pods-MoviesAndMe/Pods-MoviesAndMe.release.xcconfig"; sourceTree = "<group>"; };
@@ -418,8 +412,6 @@
 		E96E4D0E53BD447E8E1F1032 /* AppCenterReactNativeCrashes.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = AppCenterReactNativeCrashes.xcodeproj; path = "../node_modules/appcenter-crashes/ios/AppCenterReactNativeCrashes.xcodeproj"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		F34C0FF66A1B4709CC450529 /* Pods-MoviesAndMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoviesAndMe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MoviesAndMe/Pods-MoviesAndMe.debug.xcconfig"; sourceTree = "<group>"; };
-		F5B18715E1C9D8E26B49B417 /* Pods-MoviesAndMeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoviesAndMeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MoviesAndMeTests/Pods-MoviesAndMeTests.release.xcconfig"; sourceTree = "<group>"; };
 		F86334DFDF9D4F0C84209DD6 /* libAppCenterReactNative.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libAppCenterReactNative.a; sourceTree = "<group>"; };
 		FB539F241F34452DB83DF3FB /* libAppCenterReactNativeAnalytics.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libAppCenterReactNativeAnalytics.a; sourceTree = "<group>"; };
 		FE8F68C2F0D84B25B3D4D6E0 /* AppCenter-Config.plist */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text.plist.xml; name = "AppCenter-Config.plist"; path = "MoviesAndMe/AppCenter-Config.plist"; sourceTree = "<group>"; };
@@ -683,14 +675,6 @@
 				A39472C151228447A4E1F20C /* Pods-MoviesAndMe-tvOSTests.release.xcconfig */,
 				C5EB2A67A536D19D47CC25DC /* Pods-MoviesAndMeTests.debug.xcconfig */,
 				7D67BCCBCD705C1F232F352D /* Pods-MoviesAndMeTests.release.xcconfig */,
-				F34C0FF66A1B4709CC450529 /* Pods-MoviesAndMe.debug.xcconfig */,
-				A75F95CA1F10EED9921C79F0 /* Pods-MoviesAndMe.release.xcconfig */,
-				1B63F45A3ADB368406F40ECD /* Pods-MoviesAndMe-tvOS.debug.xcconfig */,
-				0F6240E82AC350E87519E5C5 /* Pods-MoviesAndMe-tvOS.release.xcconfig */,
-				41601F05609B57B00F627312 /* Pods-MoviesAndMe-tvOSTests.debug.xcconfig */,
-				4848A747D17D6AB236C5F3E4 /* Pods-MoviesAndMe-tvOSTests.release.xcconfig */,
-				BBE8912194A13BC4B26F8009 /* Pods-MoviesAndMeTests.debug.xcconfig */,
-				F5B18715E1C9D8E26B49B417 /* Pods-MoviesAndMeTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -1498,7 +1482,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BBE8912194A13BC4B26F8009 /* Pods-MoviesAndMeTests.debug.xcconfig */;
+			baseConfigurationReference = C5EB2A67A536D19D47CC25DC /* Pods-MoviesAndMeTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = YHZ662SCMX;
@@ -1537,7 +1521,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F5B18715E1C9D8E26B49B417 /* Pods-MoviesAndMeTests.release.xcconfig */;
+			baseConfigurationReference = 7D67BCCBCD705C1F232F352D /* Pods-MoviesAndMeTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -1573,7 +1557,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F34C0FF66A1B4709CC450529 /* Pods-MoviesAndMe.debug.xcconfig */;
+			baseConfigurationReference = E8B88E5A9E06DACBA1BA26BD /* Pods-MoviesAndMe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -1606,7 +1590,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A75F95CA1F10EED9921C79F0 /* Pods-MoviesAndMe.release.xcconfig */;
+			baseConfigurationReference = E0AFA864C613F8ADD1A38AC5 /* Pods-MoviesAndMe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -1638,7 +1622,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1B63F45A3ADB368406F40ECD /* Pods-MoviesAndMe-tvOS.debug.xcconfig */;
+			baseConfigurationReference = E4B9DEA9C72D241B15CAAFAF /* Pods-MoviesAndMe-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -1681,7 +1665,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0F6240E82AC350E87519E5C5 /* Pods-MoviesAndMe-tvOS.release.xcconfig */;
+			baseConfigurationReference = CFE816209E8D9AF210240DDE /* Pods-MoviesAndMe-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -1724,7 +1708,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 41601F05609B57B00F627312 /* Pods-MoviesAndMe-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 63167D742A0C88E7DE61599B /* Pods-MoviesAndMe-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -1766,7 +1750,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4848A747D17D6AB236C5F3E4 /* Pods-MoviesAndMe-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = A39472C151228447A4E1F20C /* Pods-MoviesAndMe-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
